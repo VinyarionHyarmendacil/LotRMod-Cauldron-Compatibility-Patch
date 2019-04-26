@@ -11,7 +11,7 @@ import net.minecraft.util.ChatComponentText;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
-@Mod(modid = "vinyarion_armorpatch", name = "Armor Modifier Patch by Vinyarion",  version = "1.6", acceptableRemoteVersions = "*")
+@Mod(modid = "vinyarion_armorpatch", name = "Armor Modifier Patch by Vinyarion",  version = "1.7", acceptableRemoteVersions = "*")
 public class APMod {
 
 //	@EventHandler

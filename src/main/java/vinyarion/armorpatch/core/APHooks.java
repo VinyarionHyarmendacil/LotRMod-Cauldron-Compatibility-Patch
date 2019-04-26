@@ -1,6 +1,7 @@
 package vinyarion.armorpatch.core;
 
 import java.util.List;
+import java.util.Random;
 
 import com.google.common.collect.Lists;
 
@@ -23,6 +24,16 @@ public class APHooks {
 
 	public static int ap_hook_armor(ItemStack stack, int unmodified) {
 		return LOTRReplacedMethods.Enchants.getDamageReduceAmount(stack);
+	}
+
+	public static int ap_hook_itemstackdamage(int unmodified, ItemStack stack, int damages, Random random, EntityLivingBase elb) {
+		int ret = unmodified;
+		for(int i = 0; i < damages; i++) {
+			if(LOTREnchantmentHelper.negateDamage(stack, random)) {
+				--ret;
+			}
+		}
+		return ret;
 	}
 
 }
