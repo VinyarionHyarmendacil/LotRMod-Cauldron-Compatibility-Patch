@@ -1,0 +1,16 @@
+[
+{
+  "modid": "vinyarion_armorpatch",
+  "name": "Armor Modifier Patch by Vinyarion",
+  "description": "Fixes some compatibility issues.",
+  "version": "1.6",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Vinyarion"],
+  "credits": "Vinyarion",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
