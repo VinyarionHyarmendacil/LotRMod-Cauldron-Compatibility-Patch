@@ -1,0 +1,1 @@
+# LotRMod-Cauldron-Compatibility-Patch
